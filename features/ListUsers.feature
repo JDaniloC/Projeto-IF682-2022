@@ -46,3 +46,24 @@ Scenario: No people with the same preference as the User
     THEN the system returns the five profiles to my list of users 
     AND the database does not change
 
+Scenario: Person that users likes matches with him 
+    GIVEN I am logged in as a normal user with username {"John"}
+    AND I am at the {"Find people"} page
+    AND I see {"Anna"} and {"Jessica"} on the list
+    AND {"Anna"} has already liked my profile
+    WHEN I like Anna’s profile
+    THEN Anna’s profile gets out of the list
+    AND I receive a popup that I mathed with {"Anna"} and have the ability to chat her
+    AND Jessica’s profile is still on the list
+
+
+Scenario: Person that users dislikes gets out of the list 
+    GIVEN I am logged in as a normal user with username {"John"}
+    AND I am at the {"Find people"} page
+    AND I see {"Anna"} and {"Jessica"}  on the list
+    AND {"Anna"} has not liked my profile yet
+    WHEN I dislike Anna’s profile
+    THEN Anna’s profile gets out of the list
+    AND Jessica’s profile is still on the list
+
+

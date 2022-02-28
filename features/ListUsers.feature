@@ -43,5 +43,6 @@ Scenario: No people with the same preference as the User
     GIVEN I am logged in as a normal user with username “John”
     AND there are 5 users on the database
     WHEN all of the users don’t have any preference that is in my preference list
-    THEN the system returns the five profiles to my list of users
+    THEN the system returns the five profiles to my list of users 
+    AND the database does not change
 

@@ -8,7 +8,8 @@ import {
 } from '@angular/core';
 
 import { defaultUser, User } from 'src/app/shared/types/User';
-import { PopupComponent } from 'src/app/shared/components/popup/popup.component';
+import { PopupComponent } from 'src/app/shared/components/popup/popup.component';7
+import { HomeFacade } from '../../home.facade';
 
 @Component({
   selector: 'app-user-form',
@@ -28,38 +29,7 @@ export class UserFormComponent implements OnInit {
   @Input() actionLabel: string = 'Cadastrar';
   @Output() onSubmit = new EventEmitter<User>();
 
-  translateInterests: {[key: string]: string} = {
-    'ART': 'arte',
-    'FOOD': 'comida',
-    'DANCE': 'dança',
-    'GAMES': 'jogos',
-    'BOOKS': 'livros',
-    'MUSIC': 'música',
-    'FASHION': 'moda',
-    'HEALTH': 'saúde',
-    'BEAUTY': 'beleza',
-    'MOVIES': 'filmes',
-    'TRAVEL': 'viagens',
-    'SOCCER': 'futebol',
-    'CULTURE': 'cultura',
-    'SPORTS': 'esportes',
-    'ARTISTS': 'artistas',
-    'HISTORY': 'história',
-    'ECONOMY': 'economia',
-    'FINANCE': 'finanças',
-    'COOKING': 'culinária',
-    'LANGUAGES': 'idiomas',
-    'BUSINESS': 'negócios',
-    'POLITICS': 'política',
-    'RELIGION': 'religião',
-    'CHILDREN': 'crianças',
-    'BASKETBALL': 'basquete',
-    'GEOGRAPHY': 'geografia',
-    'PHILOSOPHY': 'filosofia',
-    'TECHNOLOGY': 'tecnologia',
-    'LITERATURE': 'literatura',
-    'PHOTOGRAPHY': 'fotografia',
-  }
+  translateInterests = this.homeFacade.translateInterests
 
   interests: string[] = [
     'ART', 'FOOD', 'DANCE', 'GAMES', 'BOOKS', 'MUSIC', 
@@ -77,7 +47,7 @@ export class UserFormComponent implements OnInit {
   error: string = '';
   @ViewChild(PopupComponent) child!:PopupComponent;
   
-  constructor() { }
+  constructor(private homeFacade: HomeFacade) { }
 
   ngOnInit(): void {
   }
@@ -89,7 +59,9 @@ export class UserFormComponent implements OnInit {
   handleSubmit(event: Event): void {
     event.preventDefault();
     let error = '';
-    if (this.profile.username === "") {
+    if (this.profile.email === "") {
+      error = 'O e-mail é obrigatório';
+    } else if (this.profile.username === "") {
       error = 'O nome de usuário é obrigatório';
     } else if (this.profile.firstName === "") {
       error = 'O nome é obrigatório';

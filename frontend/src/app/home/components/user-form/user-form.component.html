@@ -93,7 +93,7 @@
         [value]="selectInput.value"
       >
         <option value="" selected >
-          Selecione
+          Interesses
         </option>
         <option value="{{interest}}" *ngFor="let interest of interests">
           {{ translateInterests[interest] }}
@@ -149,7 +149,7 @@
         <option value="" disabled selected>Gênero de Interesse</option>
         <option value="FEMALE">Feminino</option>
         <option value="MALE" selected>Masculino</option>
-        <option value="BOTH" selected>Ambos</option>
+        <option value="BOTH">Ambos</option>
       </select>
     </div>
   </div>

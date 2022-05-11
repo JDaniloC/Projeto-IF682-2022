@@ -4,6 +4,7 @@ import { defaultUser, User } from 'src/app/shared/types/User';
 import { UsersService } from 'src/app/shared/services/users.service';
 import { ProfileService } from 'src/app/shared/services/profile.service';
 import { PopupComponent } from 'src/app/shared/components/popup/popup.component';
+import { HomeFacade } from '../../home.facade';
 
 @Component({
   selector: 'app-profile',
@@ -19,11 +20,13 @@ export class ProfileComponent implements OnInit {
   ]
 
   public popupLabel: string = 'Perfil atualizado!';
+  public translateInterests = this.homeFacade.translateInterests
   @ViewChild(PopupComponent) child!:PopupComponent;
 
   constructor(
     private profileService: ProfileService,
-    private usersService: UsersService
+    private usersService: UsersService,
+    private homeFacade: HomeFacade
   ) {
     profileService.getProfile().subscribe(profile => {
       if (!profile) return;
@@ -72,16 +75,6 @@ export class ProfileComponent implements OnInit {
     }
     return age;
   }
-
-  updatePopUp() {
-    $('.alert').addClass("show");
-    $('.alert').removeClass("hide");
-    $('.alert').addClass("showAlert");
-    setTimeout(function(){
-      $('.alert').removeClass("show");
-      $('.alert').addClass("hide");
-    },5000);
-  };
 
   async updateUser(user: User) {
     this.usersService.updateUser({

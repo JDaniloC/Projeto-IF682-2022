@@ -52,12 +52,19 @@ describe("See user profile", () => {
     cy.get('.modal.active').should('exist')
   })
 
-  it.skip("Should show a message when there is no users to like", async () => {
+  it("Should show a message when there is no users to like", async () => {
     let children = await cy.get(".slick-list .slick-track .slide").children();
     children.each(() => {
       cy.get(".card-component-test.slick-active .ui.green.heart.icon")
         .first().click({'force': true})
     })
+    children = await cy.get(".slick-list .slick-track .slide").children();
+    if (children !== undefined) {
+      children.each(() => {
+        cy.get(".card-component-test.slick-active .ui.green.heart.icon")
+          .first().click({'force': true})
+      });
+    }
     cy.get('.ui.message').should('contain.text', 'Parece que não tem ninguém por aqui :(')
   })
 });

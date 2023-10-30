@@ -3470,8 +3470,8 @@ graphql-tag@^2.12.3:
     tslib "^2.1.0"
 
 graphql@^16:
-  version "16.3.0"
-  resolved "https://registry.npmjs.org/graphql/-/graphql-16.3.0.tgz"
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.1.tgz#1930a965bef1170603702acdb68aedd3f3cf6f07"
 
 guess-parser@0.4.22:
   version "0.4.22"

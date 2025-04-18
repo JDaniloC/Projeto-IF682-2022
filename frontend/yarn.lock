@@ -22,22 +22,22 @@
     "@angular-devkit/core" "13.2.6"
     rxjs "6.6.7"
 
-"@angular-devkit/architect@0.1902.5":
-  version "0.1902.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1902.5.tgz#3cd25e98408a919701b848a23e0969a9b667e80d"
+"@angular-devkit/architect@0.1902.8":
+  version "0.1902.8"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1902.8.tgz#7c363c9e31f420f0ff88d7ebe2fc2fb601c3872f"
   dependencies:
-    "@angular-devkit/core" "19.2.5"
+    "@angular-devkit/core" "19.2.8"
     rxjs "7.8.1"
 
-"@angular-devkit/build-angular@~19.2.5":
-  version "19.2.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-19.2.5.tgz#1a9a182d45e3f5aea3ff09ecf7c6b5bcddb6f06a"
+"@angular-devkit/build-angular@~19.2.8":
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-19.2.8.tgz#bfcc012d072ae6ebc54abb5ff4240a8b9ef0bbce"
   dependencies:
     "@ampproject/remapping" "2.3.0"
-    "@angular-devkit/architect" "0.1902.5"
-    "@angular-devkit/build-webpack" "0.1902.5"
-    "@angular-devkit/core" "19.2.5"
-    "@angular/build" "19.2.5"
+    "@angular-devkit/architect" "0.1902.8"
+    "@angular-devkit/build-webpack" "0.1902.8"
+    "@angular-devkit/core" "19.2.8"
+    "@angular/build" "19.2.8"
     "@babel/core" "7.26.10"
     "@babel/generator" "7.26.10"
     "@babel/helper-annotate-as-pure" "7.25.9"
@@ -48,7 +48,7 @@
     "@babel/preset-env" "7.26.9"
     "@babel/runtime" "7.26.10"
     "@discoveryjs/json-ext" "0.6.3"
-    "@ngtools/webpack" "19.2.5"
+    "@ngtools/webpack" "19.2.8"
     "@vitejs/plugin-basic-ssl" "1.2.0"
     ansi-colors "4.1.3"
     autoprefixer "10.4.20"
@@ -91,11 +91,11 @@
   optionalDependencies:
     esbuild "0.25.1"
 
-"@angular-devkit/build-webpack@0.1902.5":
-  version "0.1902.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/build-webpack/-/build-webpack-0.1902.5.tgz#2152c9017654bf610bdf9aa15ed9e27094d58241"
+"@angular-devkit/build-webpack@0.1902.8":
+  version "0.1902.8"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-webpack/-/build-webpack-0.1902.8.tgz#7abf7fb71b09f2390037ec17095682a064b9c647"
   dependencies:
-    "@angular-devkit/architect" "0.1902.5"
+    "@angular-devkit/architect" "0.1902.8"
     rxjs "7.8.1"
 
 "@angular-devkit/core@13.2.6":
@@ -109,9 +109,9 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/core@19.2.5":
-  version "19.2.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.2.5.tgz#dfa829dbcf4d70312290eea2d55ce8a6411ebed5"
+"@angular-devkit/core@19.2.8":
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.2.8.tgz#0dd367e754a8611e9d2529435aa4b8bc5b143496"
   dependencies:
     ajv "8.17.1"
     ajv-formats "3.0.1"
@@ -136,19 +136,19 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/build@19.2.5":
-  version "19.2.5"
-  resolved "https://registry.yarnpkg.com/@angular/build/-/build-19.2.5.tgz#4d24147a268d5b850a31b2693a9c8cebc3d22c5e"
+"@angular/build@19.2.8":
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/@angular/build/-/build-19.2.8.tgz#ae72b59aadd3e7d18b2772c6ffc5549751d99ffc"
   dependencies:
     "@ampproject/remapping" "2.3.0"
-    "@angular-devkit/architect" "0.1902.5"
+    "@angular-devkit/architect" "0.1902.8"
     "@babel/core" "7.26.10"
     "@babel/helper-annotate-as-pure" "7.25.9"
     "@babel/helper-split-export-declaration" "7.24.7"
     "@babel/plugin-syntax-import-attributes" "7.26.0"
     "@inquirer/confirm" "5.1.6"
     "@vitejs/plugin-basic-ssl" "1.2.0"
-    beasties "0.2.0"
+    beasties "0.3.2"
     browserslist "^4.23.0"
     esbuild "0.25.1"
     fast-glob "3.3.3"
@@ -164,7 +164,7 @@
     sass "1.85.0"
     semver "7.7.1"
     source-map-support "0.5.21"
-    vite "6.2.3"
+    vite "6.2.6"
     watchpack "2.4.2"
   optionalDependencies:
     lmdb "3.2.6"
@@ -1476,9 +1476,9 @@
     "@napi-rs/nice-win32-ia32-msvc" "1.0.1"
     "@napi-rs/nice-win32-x64-msvc" "1.0.1"
 
-"@ngtools/webpack@19.2.5":
-  version "19.2.5"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-19.2.5.tgz#a4cd03de177cde6519135e75659504293520955b"
+"@ngtools/webpack@19.2.8":
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-19.2.8.tgz#13470efeae8142e669d5c744a3d1f96499b548e8"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2540,15 +2540,15 @@ batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.npmjs.org/batch/-/batch-0.6.1.tgz"
 
-beasties@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/beasties/-/beasties-0.2.0.tgz#bc418d3b797fbe40cd93923d31cc8d3597d19c94"
+beasties@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/beasties/-/beasties-0.3.2.tgz#c0f7ed1362dff0ee8f9c448bcd1b1d6fe16cc609"
   dependencies:
     css-select "^5.1.0"
     css-what "^6.1.0"
     dom-serializer "^2.0.0"
     domhandler "^5.0.3"
-    htmlparser2 "^9.1.0"
+    htmlparser2 "^10.0.0"
     picocolors "^1.1.1"
     postcss "^8.4.49"
     postcss-media-query-parser "^0.2.3"
@@ -3201,7 +3201,7 @@ domutils@^3.0.1:
     domelementtype "^2.3.0"
     domhandler "^5.0.3"
 
-domutils@^3.1.0:
+domutils@^3.2.1:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-3.2.2.tgz#edbfe2b668b0c1d97c24baf0f1062b132221bc78"
   dependencies:
@@ -3295,9 +3295,13 @@ ent@~2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/ent/-/ent-2.2.0.tgz"
 
-entities@^4.2.0, entities@^4.3.0, entities@^4.4.0, entities@^4.5.0:
+entities@^4.2.0, entities@^4.3.0, entities@^4.4.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
+
+entities@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-6.0.0.tgz#09c9e29cb79b0a6459a9b9db9efb418ac5bb8e51"
 
 env-paths@^2.2.0, env-paths@^2.2.1:
   version "2.2.1"
@@ -3808,14 +3812,14 @@ html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmjs.org/html-escaper/-/html-escaper-2.0.2.tgz"
 
-htmlparser2@^9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-9.1.0.tgz#cdb498d8a75a51f739b61d3f718136c369bc8c23"
+htmlparser2@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-10.0.0.tgz#77ad249037b66bf8cc99c6e286ef73b83aeb621d"
   dependencies:
     domelementtype "^2.3.0"
     domhandler "^5.0.3"
-    domutils "^3.1.0"
-    entities "^4.5.0"
+    domutils "^3.2.1"
+    entities "^6.0.0"
 
 http-cache-semantics@^4.1.0:
   version "4.1.1"
@@ -6247,9 +6251,9 @@ vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
-vite@6.2.3:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.2.3.tgz#249e92d32886981ab46bc1f049ac72abc6fa81e2"
+vite@6.2.6:
+  version "6.2.6"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.2.6.tgz#7f0ccf2fdc0c1eda079ce258508728e2473d3f61"
   dependencies:
     esbuild "^0.25.0"
     postcss "^8.5.3"

@@ -22,22 +22,22 @@
     "@angular-devkit/core" "13.2.6"
     rxjs "6.6.7"
 
-"@angular-devkit/architect@0.1902.8":
-  version "0.1902.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1902.8.tgz#7c363c9e31f420f0ff88d7ebe2fc2fb601c3872f"
+"@angular-devkit/architect@0.1902.10":
+  version "0.1902.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1902.10.tgz#8bb46d44e6f341a2579d445e979f574657737a2c"
   dependencies:
-    "@angular-devkit/core" "19.2.8"
+    "@angular-devkit/core" "19.2.10"
     rxjs "7.8.1"
 
-"@angular-devkit/build-angular@~19.2.8":
-  version "19.2.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-19.2.8.tgz#bfcc012d072ae6ebc54abb5ff4240a8b9ef0bbce"
+"@angular-devkit/build-angular@~19.2.10":
+  version "19.2.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-19.2.10.tgz#2777afc2d864053fb67f52705f667d2cbb2648fb"
   dependencies:
     "@ampproject/remapping" "2.3.0"
-    "@angular-devkit/architect" "0.1902.8"
-    "@angular-devkit/build-webpack" "0.1902.8"
-    "@angular-devkit/core" "19.2.8"
-    "@angular/build" "19.2.8"
+    "@angular-devkit/architect" "0.1902.10"
+    "@angular-devkit/build-webpack" "0.1902.10"
+    "@angular-devkit/core" "19.2.10"
+    "@angular/build" "19.2.10"
     "@babel/core" "7.26.10"
     "@babel/generator" "7.26.10"
     "@babel/helper-annotate-as-pure" "7.25.9"
@@ -48,7 +48,7 @@
     "@babel/preset-env" "7.26.9"
     "@babel/runtime" "7.26.10"
     "@discoveryjs/json-ext" "0.6.3"
-    "@ngtools/webpack" "19.2.8"
+    "@ngtools/webpack" "19.2.10"
     "@vitejs/plugin-basic-ssl" "1.2.0"
     ansi-colors "4.1.3"
     autoprefixer "10.4.20"
@@ -58,7 +58,7 @@
     css-loader "7.1.2"
     esbuild-wasm "0.25.1"
     fast-glob "3.3.3"
-    http-proxy-middleware "3.0.3"
+    http-proxy-middleware "3.0.5"
     istanbul-lib-instrument "6.0.3"
     jsonc-parser "3.3.1"
     karma-source-map-support "1.4.0"
@@ -91,11 +91,11 @@
   optionalDependencies:
     esbuild "0.25.1"
 
-"@angular-devkit/build-webpack@0.1902.8":
-  version "0.1902.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/build-webpack/-/build-webpack-0.1902.8.tgz#7abf7fb71b09f2390037ec17095682a064b9c647"
+"@angular-devkit/build-webpack@0.1902.10":
+  version "0.1902.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-webpack/-/build-webpack-0.1902.10.tgz#ece37074d3d9aa71b07134d881f83ced8f69ffd2"
   dependencies:
-    "@angular-devkit/architect" "0.1902.8"
+    "@angular-devkit/architect" "0.1902.10"
     rxjs "7.8.1"
 
 "@angular-devkit/core@13.2.6":
@@ -109,9 +109,9 @@
     rxjs "6.6.7"
     source-map "0.7.3"
 
-"@angular-devkit/core@19.2.8":
-  version "19.2.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.2.8.tgz#0dd367e754a8611e9d2529435aa4b8bc5b143496"
+"@angular-devkit/core@19.2.10":
+  version "19.2.10"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.2.10.tgz#9e34062c533b88efad8c10fb8f29880ed689c642"
   dependencies:
     ajv "8.17.1"
     ajv-formats "3.0.1"
@@ -136,12 +136,12 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/build@19.2.8":
-  version "19.2.8"
-  resolved "https://registry.yarnpkg.com/@angular/build/-/build-19.2.8.tgz#ae72b59aadd3e7d18b2772c6ffc5549751d99ffc"
+"@angular/build@19.2.10":
+  version "19.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/build/-/build-19.2.10.tgz#9bedfd8d1030f0aa3ea5fb5f07bf4b6b0c1e5235"
   dependencies:
     "@ampproject/remapping" "2.3.0"
-    "@angular-devkit/architect" "0.1902.8"
+    "@angular-devkit/architect" "0.1902.10"
     "@babel/core" "7.26.10"
     "@babel/helper-annotate-as-pure" "7.25.9"
     "@babel/helper-split-export-declaration" "7.24.7"
@@ -164,7 +164,7 @@
     sass "1.85.0"
     semver "7.7.1"
     source-map-support "0.5.21"
-    vite "6.2.6"
+    vite "6.2.7"
     watchpack "2.4.2"
   optionalDependencies:
     lmdb "3.2.6"
@@ -1476,9 +1476,9 @@
     "@napi-rs/nice-win32-ia32-msvc" "1.0.1"
     "@napi-rs/nice-win32-x64-msvc" "1.0.1"
 
-"@ngtools/webpack@19.2.8":
-  version "19.2.8"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-19.2.8.tgz#13470efeae8142e669d5c744a3d1f96499b548e8"
+"@ngtools/webpack@19.2.10":
+  version "19.2.10"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-19.2.10.tgz#780d676e5af541e843bb1baa8e6a925c7e0c7ad1"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -3868,9 +3868,9 @@ http-proxy-agent@^5.0.0:
     agent-base "6"
     debug "4"
 
-http-proxy-middleware@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-3.0.3.tgz#dc1313c75bd00d81e103823802551ee30130ebd1"
+http-proxy-middleware@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-3.0.5.tgz#9dcde663edc44079bc5a9c63e03fe5e5d6037fab"
   dependencies:
     "@types/http-proxy" "^1.17.15"
     debug "^4.3.6"
@@ -6251,9 +6251,9 @@ vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
-vite@6.2.6:
-  version "6.2.6"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.2.6.tgz#7f0ccf2fdc0c1eda079ce258508728e2473d3f61"
+vite@6.2.7:
+  version "6.2.7"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.2.7.tgz#699fb6e4b3e65d749480e0087cdbe3f3f0de00fa"
   dependencies:
     esbuild "^0.25.0"
     postcss "^8.5.3"
